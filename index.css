@@ -1,3 +1,18 @@
+*{
+	font-family: "Poppins", sans-serif;
+}
+
+#topName{
+	font-family: "Pacifico", sans-serif;
+}
+/*options
+#topName2{
+	font-family: "Lilita One", sans-serif;
+}
+#topName3{
+	font-family: "Lobster", sans-serif;
+}*/
+
 #content{
 	background: url(./images/background-all.png);
 	background-repeat: no-repeat;
@@ -36,5 +51,6 @@
 }
 
 #tools{
-	background: lightgray;
+	background: #f8f9fa;
+	color: #7851a9;
 }
