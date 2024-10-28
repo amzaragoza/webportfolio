@@ -1,0 +1,40 @@
+#content{
+	background: url(./images/background-all.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+#side {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 9997;
+    transition: all 0.5s;
+    padding: 0 15px;
+    background: #040b14;
+    overflow-y: auto;
+}
+
+#modal{
+	display: none;
+}
+
+/*#contact-icon{
+	width: 30px;
+	height: 30px;
+	white-space: 5px;
+}*/
+
+.contact-icon {
+    font-size: 4vh;
+}
+
+.discord{
+	width: 128px;
+}
+
+#tools{
+	background: lightgray;
+}
