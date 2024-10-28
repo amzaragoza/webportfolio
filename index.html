@@ -22,51 +22,68 @@
 		<div class="d-none bg-light bg-gradient d-md-flex justify-content-center align-items-center col-md-2" id="side">
 			<div class="row flex-column justify-content-center align-items-center py-5">
 				<div class="col-md-6 mb-2">
-					<img src="./images/cute-cartoon-penguin.png" class="img-fluid rounded-circle">
+					<img src="./images/cute-cartoon-penguin.png" class="img-fluid rounded-circle" />
 				</div>
 				<div class="col text-center">
 					<h3 class="mb-1">Alaica Zaragoza</h3>
 					<h6>Web Developer</h6>
 				</div>
 				<div class="col-md-8 text-center">
-					<a href="#landing" class="text-dark text-decoration-none">Home</a>
+					<a href="#landing" class="text-secondary text-decoration-none">Home</a>
 				</div>
 				<div class="col-md-8 text-center">
-					<a href="#projects" class="text-dark text-decoration-none">Projects</a>
+					<a href="#projects" class="text-secondary text-decoration-none">Projects</a>
 				</div>
 				<div class="col-md-8 text-center">
-					<a href="#tools" class="text-dark text-decoration-none">Tools</a>
+					<a href="#tools" class="text-secondary text-decoration-none">Tools</a>
 				</div>
 				<div class="col-md-8 text-center">
-					<a href="#contact" class="text-dark text-decoration-none">Contact</a>
+					<a href="#contact" class="text-secondary text-decoration-none">Contact</a>
 				</div>
 			</div>
 		</div>
 		<!-- End of Side/Vertical Navbar -->
 
+		<!-- Start of Top/Horizontal Navbar -->
+		<nav class="navbar navbar-expand-sm navbar-light bg-light bg-gradient d-md-none" id="nav">
+		  <div class="container-fluid">
+		    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		      <img src="./images/cute-cartoon-penguin.png" class="img-fluid rounded-circle w-25" />
+		    </button>
+		    <div class="collapse navbar-collapse justify-content-center" id="navbarNavAltMarkup">
+		      <div class="navbar-nav navbar-expand-md ">
+		        <a class="nav-link" href="#landing">Home</a>
+		        <a class="nav-link" href="#projects">Projects</a>
+	            <a class="nav-link" href="#tools">Tools</a>
+	            <a class="nav-link" href="#contact">Contact</a>
+		      </div>
+		    </div>
+		  </div>
+		</nav>
+		<!-- End of Top/Horizontal Navbar -->
+		
+
 		<!-- Start of Main Content -->
-		<div id="content" class="container-fluid pt-5">
+		<div id="content" class="container-fluid">
 			<div class="row">
 
 				<!-- Start of Landing -->
-				<div id="landing" class="col-md-10 offset-md-2 d-flex flex-column justify-content-center align-items-center">
-					<div class="mt-5 pt-5 text-white">
+				<div id="landing" class="col-md-10 offset-md-2 d-flex flex-column justify-content-center align-items-center vh-100">
+					<div class="my-5 py-5 text-white">
 						<h1 id="topName" class="text-center display-1">Alaica Zaragoza</h1>
-						<!-- <h1 id="topName2" class="text-center display-1">Alaica Zaragoza</h1>
-						<h1 id="topName3" class="text-center display-1">Alaica Zaragoza</h1> -->
-						<h4 class="text-center display-6">Full Stack Web Developer</h4>
+						<h4 class="text-center display-6 mt-3">Full Stack Web Developer</h4>
 						<div class="row mt-3 justify-content-center">
 							<div class="col-6 d-flex justify-content-evenly w-50 ">
 								<a class="contact-icon mx-3" href="https://github.com/" target="_blank">
-									<img src="./images/github.png" class="img-fluid">
+									<img src="./images/github.png" class="img-fluid" />
 								</a>
 
 								<a class="contact-icon mx-3" href="https://about.gitlab.com/" target="_blank">
-									<img src="./images/gitlab.png" class="img-fluid">
+									<img src="./images/gitlab.png" class="img-fluid" />
 								</a>
 
 								<a class="contact-icon mx-3" href="https://www.linkedin.com/" target="_blank">
-									<img src="./images/linkedin.png" class="img-fluid">
+									<img src="./images/linkedin.png" class="img-fluid" />
 								</a>
 							</div>
 						</div>
@@ -78,23 +95,23 @@
 				<div id="projects" class="col-md-10 offset-md-2 d-flex flex-column justify-content-center align-items-center py-4">
 					<h1 class="text-center mt-5 mb-2 text-white">Projects</h1>
 					<div class="row mt-2 pt-3 px-4 justify-content-center">
-						<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal1">
-							<img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" />
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal1">
+							<img src="./images/seo.jpg" class="img-fluid project-transition" />
 
 							<!-- Modal 1 -->
 							<div class="modal fade" id="modal1" tabindex="-1" aria-labelledby="modal1Label" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title" id="modal1Label">Modal title</h5>
+							        <h5 class="modal-title" id="modal1Label">Understanding SEO Basics</h5>
 							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							      </div>
 							      <div class="modal-body">
-							        <img src="https://images.pexels.com/photos/38544/imac-apple-mockup-app-38544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" />
-							        <p class="text-center mt-3">Project 1 paragraph</p>
+							        <img src="./images/seo.jpg" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">This project explores the fundamental principles of SEO, providing insights into how optimizing your website can lead to better search engine rankings and increased visibility. Dive into the essential strategies that can enhance your online presence.</p>
 							      </div>
 							      <div class="modal-footer d-flex justify-content-center">
-							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button>
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
 							        <button type="button" class="btn btn-primary">Close</button>
 							      </div>
 							    </div>
@@ -102,23 +119,23 @@
 							</div>								
 						</div>
 
-						<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal2">
-							<img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid" />
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal2">
+							<img src="./images/auto.jpg" class="img-fluid project-transition" />
 
 							<!-- Modal 2 -->
 							<div class="modal fade" id="modal2" tabindex="-1" aria-labelledby="modal2Label" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title" id="modal2Label">Modal title</h5>
+							        <h5 class="modal-title" id="modal2Label">Chief Automation Creator</h5>
 							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							      </div>
 							      <div class="modal-body">
-							        <img src="https://images.pexels.com/photos/2004161/pexels-photo-2004161.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" class="img-fluid" />
-							        <p class="text-center mt-3">Project 1 paragraph</p>
+							        <img src="./images/auto.jpg" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">In this project, I developed an automation tool designed to streamline repetitive tasks, ultimately helping users save time and reduce costs. Discover how effective automation can transform workflows and boost efficiency.</p>
 							      </div>
 							      <div class="modal-footer d-flex justify-content-center">
-							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button>
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
 							        <button type="button" class="btn btn-primary">Close</button>
 							      </div>
 							    </div>
@@ -126,23 +143,23 @@
 							</div>
 						</div>
 
-						<div class="col-md-3 mb-3 mb-md-0 px-1" data-toggle="modal" data-target="#modal3">
-							<img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" />
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal3">
+							<img src="./images/wfh.jpg" class="img-fluid project-transition" />
 
 							<!-- Modal 3 -->
 							<div class="modal fade" id="modal3" tabindex="-1" aria-labelledby="modal3Label" aria-hidden="true">
 							  <div class="modal-dialog">
 							    <div class="modal-content">
 							      <div class="modal-header">
-							        <h5 class="modal-title" id="modal3Label">Modal title</h5>
+							        <h5 class="modal-title" id="modal3Label">Boosting Productivity at Home</h5>
 							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 							      </div>
 							      <div class="modal-body">
-							        <img src="https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" class="img-fluid" />
-							        <p class="text-center mt-3">Project 1 paragraph</p>
+							        <img src="./images/wfh.jpg" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">This project focuses on strategies and tools that can enhance productivity for remote workers. Learn practical tips and techniques that make working from home more efficient and enjoyable.</p>
 							      </div>
 							      <div class="modal-footer d-flex justify-content-center">
-							        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button>
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
 							        <button type="button" class="btn btn-primary">Close</button>
 							      </div>
 							    </div>
@@ -150,7 +167,80 @@
 							</div>
 						</div>
 					</div>
-					<div class="row mb-5 py-2 px-4 justify-content-center"></div>
+
+					<div class="row mb-5 py-2 px-4 justify-content-center">
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal4">
+							<img src="./images/sql.png" class="img-fluid project-transition" />
+
+							<!-- Modal 4 -->
+							<div class="modal fade" id="modal4" tabindex="-1" aria-labelledby="modal4Label" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="modal4Label">SQL Programming</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div>
+							      <div class="modal-body">
+							        <img src="./images/sql.png" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">In this project, I delved into SQL programming through LinkedIn Learning courses. I gained essential skills in database management and query writing, empowering me to handle data more effectively in web development.</p>
+							      </div>
+							      <div class="modal-footer d-flex justify-content-center">
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>								
+						</div>
+
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal5">
+							<img src="./images/agile.png" class="img-fluid project-transition" />
+
+							<!-- Modal 5 -->
+							<div class="modal fade" id="modal5" tabindex="-1" aria-labelledby="modal5Label" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="modal5Label">Agile Foundation</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div>
+							      <div class="modal-body">
+							        <img src="./images/agile.png" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">This project involved exploring the Agile methodology through LinkedIn Learning. I learned the principles of Agile development, which enhanced my ability to collaborate with teams and deliver projects more efficiently.</p>
+							      </div>
+							      <div class="modal-footer d-flex justify-content-center">
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+
+						<div class="col-md-3 mb-3 mb-md-0 px-1" data-bs-toggle="modal" data-bs-target="#modal6">
+							<img src="./images/freecode.png" class="img-fluid project-transition" />
+
+							<!-- Modal 6 -->
+							<div class="modal fade" id="modal6" tabindex="-1" aria-labelledby="modal6Label" aria-hidden="true">
+							  <div class="modal-dialog">
+							    <div class="modal-content">
+							      <div class="modal-header">
+							        <h5 class="modal-title" id="modal6Label">Free Code Tools</h5>
+							        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+							      </div>
+							      <div class="modal-body">
+							        <img src="./images/freecode.png" class="img-fluid project-transition" />
+							        <p class="text-center mt-3">In this project, I curated a collection of free coding tools aimed at improving the development process. Discover how these resources can help developers create high-quality applications more quickly and effectively.</p>
+							      </div>
+							      <div class="modal-footer d-flex justify-content-center">
+							        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Go to Page</button> -->
+							        <button type="button" class="btn btn-primary">Close</button>
+							      </div>
+							    </div>
+							  </div>
+							</div>
+						</div>
+					</div>
 				</div>
 				<!-- End of Projects -->
 
@@ -187,7 +277,7 @@
 				<!-- End of Tools -->
 
 				<!-- Start of Contact -->
-				<div id="contact" class="col-md-10 offset-md-2 d-flex flex-column justify-content-center align-items-center">
+				<div id="contact" class="col-md-10 offset-md-2 d-flex flex-column justify-content-center align-items-center pt-3">
 					<h2 class="text-center text-white mt-5 mb-4">Contact</h2>
 					<div class="row justify-content-center mx-auto">
 						<div class="col-12 d-flex text-white w-50">
@@ -204,12 +294,12 @@
 							</a>
 						</div>
 					</div>
-					<div class="row px-md-5">
-						<div class="col-md-6 p-3 my-3 text-white">
+					<div class="row px-md-5 py-md-5">
+						<div class="col-md-6 p-4 my-3 text-white">
 							<h4 class="text-center text-white mb-3">Visit Me</h4>
-							<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16012963.342062209!2d111.93407591399215!3d11.522067916572402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1730086921805!5m2!1sen!2sph" class="w-100 h-75" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+							<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d16012963.342062209!2d111.93407591399215!3d11.522067916572402!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x324053215f87de63%3A0x784790ef7a29da57!2sPhilippines!5e0!3m2!1sen!2sph!4v1730086921805!5m2!1sen!2sph" class="w-100" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 						</div>
-						<div class="col-md-6 p-3 my-3 text-white text-center">
+						<div class="col-md-6 p-4 my-3 text-white text-center">
 							<h4 class="text-center mb-3">Message Me</h4>
 							<form>
 								<div class="form-group my-3">
@@ -224,9 +314,30 @@
 									<label class="mb-2">Message</label>
 									<textarea class="form-control" rows="5"></textarea>
 								</div>
+
 								<div class="d-grid mt-4">
-									<button type="submit" class="btn btn-block btn-outline-light"> Send</button>
+									<!-- Button trigger modal -->
+								    <button type="button" class="btn btn-block btn-outline-light" data-bs-toggle="modal" data-bs-target="#modalDiv">Send</button>
+
+								  	<!-- Modal -->
+								  	<div class="modal fade" id="modalDiv" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+								  	  <div class="modal-dialog">
+								  	    <div class="modal-content">
+								  	      <div class="modal-header">
+								  	        <h5 class="modal-title" id="exampleModalLabel">Thank you for contacting us!</h5>
+								  	        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+								  	      </div>
+								  	      <div class="modal-body">
+								  	        <p>Message Successfully Sent</p>
+								  	      </div>
+								  	      <div class="modal-footer">
+								  	        <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Close</button>
+								  	      </div>
+								  	    </div>
+								  	  </div>
+								  	</div>
 								</div>
+
 							</form>
 						</div>
 					</div>
@@ -234,7 +345,7 @@
 				<!-- End of Contact -->
 				
 				<!-- Start of Footer -->
-				<footer class="offset-md-2 pt-5 mt-5 col-md-10 d-flex flex-column justify-content-center text-dark bg-light">
+				<footer class="offset-md-2 pt-3 mt-5 col-md-10 d-flex flex-column justify-content-center text-dark bg-light">
 					<p class="text-center mb-0">Alaica Zaragoza | Web Developer</p>
 					<p class="text-center mt-1">© For Educational Purposes Only. 2024</p>
 				</footer>

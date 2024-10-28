@@ -4,14 +4,11 @@
 
 #topName{
 	font-family: "Pacifico", sans-serif;
-}
-/*options
-#topName2{
+	/*options:
 	font-family: "Lilita One", sans-serif;
-}
-#topName3{
 	font-family: "Lobster", sans-serif;
-}*/
+	*/
+}
 
 #content{
 	background: url(./images/background-all.png);
@@ -28,29 +25,30 @@
     z-index: 9997;
     transition: all 0.5s;
     padding: 0 15px;
-    background: #040b14;
     overflow-y: auto;
 }
 
-#modal{
-	display: none;
+.project-transition {
+    transition: transform .5s;
 }
 
-/*#contact-icon{
-	width: 30px;
-	height: 30px;
-	white-space: 5px;
-}*/
+#modal1,#modal2,#modal3{
+	display: none;
+}
 
 .contact-icon {
     font-size: 4vh;
 }
 
-.discord{
-	width: 128px;
-}
-
 #tools{
 	background: #f8f9fa;
+	color: #7851a9;
+}
+
+#map{
+	height: 90%;
+}
+
+#modalDiv{
 	color: #7851a9;
 }
