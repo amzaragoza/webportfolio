@@ -10,11 +10,11 @@
 	*/
 }
 
-/*#content{
+#content{
 	background: url(./images/background-all.png);
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}*/
+}
 
 #side {
     height: 100vh;
